@@ -1,0 +1,177 @@
+CCTV13,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221225817/index.m3u8
+CCTV13,https://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8
+翡翠台,https://cdn.hkdtmb.com/hls/81/index.m3u8
+翡翠华丽台,http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
+翡翠台,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1&lv=1&c=0&s=4&v=100&wh=16:9&p=1
+翡翠台,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=188
+翡翠台,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=&Fsv_chan_hls_se_idx=188,p2p://fccsovh.pvbox.live:18912/5d1220350000ba27f9471ccdeb9a8058.ts
+J2,https://cdn.hkdtmb.com/hls/82/index.m3u8
+明珠台,http://cdn.hkdtmb.com/hls/84/index.m3u8
+明珠台,http://116.199.5.52:8114/00000000/index.m3u8?Fsv_chan_hls_se_idx=12&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8
+明珠台,http://116.199.5.51:8114/00000000/2e368e04c76446bc9d30ca7a9f934dae/index.m3u8?Fsv_cid=1034&Fsv_chan_hls_se_idx=12&Fsv_ctype=LIVES&version=9&Fsv_rate_id=1&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=7f88be5fb6fd426494f6aa240f1dc7a9&Provider_id=00000000&Fsv_filetype=1&Fsv_ShiftEnable=0&Fsv_SV_PARAM1=0&Fsv_ShiftTsp=240&Fsv_CMSID=00000000&AuthInfo=P2ZSH2gNMZ8aiVfV%2BjCYczoGsAYoDo4KY5I3eHfJhGTKdSzgLwCHoSet9it9fXrMLwehJxh9gmO%2F%0AOFrWyxI%2BtteLTJnZKT7Lg8BRYQNXMQU%3D%0A
+明珠台,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
+TVB星河频道,http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
+TVB星河频道,http://50.7.161.82:8278/streams/d/Xinhe/./playlist.m3u8
+无线新闻,http://cdn.hkdtmb.com/hls/83/index.m3u8
+无线财经,http://cdn.hkdtmb.com/hls/85/index.m3u8
+RHK31,https://cdn.hkdtmb.com/hls/31/index.m3u8
+RHK32,https://cdn.hkdtmb.com/hls/32/index.m3u8
+ViuTV,https://cdn.hkdtmb.com/hls/99/index.m3u8
+ViuTV,http://61.238.6.49:8000/bysid/99
+ViuTV6,http://cdn.hkdtmb.com/hls/96/index.m3u8
+ViuTV6,https://cdn.hkdtmb.com/hls/96/index.m3u8
+天映电影,http://210.210.155.35/qwr9ew/s/s33/01.m3u8
+天映电影2,http://185.180.221.194:8278/streams/d/Celestial/playlist.m3u8
+天映电影2,http://topwin-tv.my.id/2/master.m3u8?id=celestialmovie
+天映经典,http://50.7.161.82:8278/streams/d/Celestial2/playlist.m3u8
+天映经典2,http://185.180.221.194:8278/streams/d/Celestial2/playlist.m3u8
+凤凰中文,http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8
+凤凰资讯,http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8
+凤凰资讯,http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8
+凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
+HGTV居家乐活,http://50.7.161.82:8278/streams/d/HGTV/playlist.m3u8
+HGTV居家乐活,http://185.180.221.194:8278/streams/d/HGTV/playlist.m3u8
+FOX,http://198.16.106.62:8278/streams/d/foxhd_zero/playlist.m3u8
+民视,http://198.16.106.62:8278/ftvhd_taiwan/playlist.m3u8?tid=15141291&ct=17990&tsum=ab93fcdf581cc3f483e1ceede13312ce
+TVBS,http://198.16.106.62:8278/streams/d/tvbs/playlist.m3u8
+TVBS,http://198.16.106.62:8278/tvbs/playlist.m3u8?tid=m0f93590c7a75&ct=18335&tsum=d55d4e5f3a3d424454dbc8d70e3bb1b6
+中天综合台,http://198.16.106.62:8278/streams/d/ctizhonghe/playlist.m3u8
+三立综合台,http://198.16.106.62:8278/sanlizhonghe/playlist.m3u8?tid=m3362167a08a014596868&ct=17874&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
+三立台湾台,http://198.16.106.62:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb
+纬来日本台,http://198.16.106.62:8278/streams/d/videolandjapan_zero/playlist.m3u8
+BBCEarth,http://198.16.106.62:8278/streams/d/bbclifestyle_zero/playlist.m3u8
+Discovery Eve,http://198.16.106.62:8278/streams/d/eve_zero/playlist.m3u8
+美食星球,http://198.16.106.62:8278/streams/d/foodplanet_zero/playlist.m3u8
+FoodNetwork美食台,http://198.16.106.62:8278/streams/d/asiafood_zero/playlist.m3u8
+Astro AECᴴᴰ,http://185.180.221.194:8278/streams/d/Aec/playlist.m3u8
+Astro 双星ᴴᴰ,http://50.7.161.82:8278/streams/d/Shuangxing/playlist.m3u8
+Astro 全佳ᴴᴰ,http://185.180.221.194:8278/streams/d/Quanjia/playlist.m3u8
+新传媒U,http://185.180.221.194:8278/streams/d/ChannelU/playlist.m3u8
+TVBS新闻台,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+中天新闻,http://seb.sason.top/sc/ztxw_fhd.m3u8
+东森新闻台,http://seb.sason.top/sc/dsxw_fhd.m3u8
+东森财经新闻台,http://seb.sason.top/sc/dscjxw_fhd.m3u8
+三立新闻台,http://seb.sason.top/sc/sllive_fhd.m3u8
+中视新闻,http://seb.sason.top/sc/zsxw_fhd.m3u8
+台视新闻台,http://seb.sason.top/sc/tsxw_fhd.m3u8
+華視新聞資訊,http://seb.sason.top/sc/hsxw_fhd.m3u8
+HBOHD,http://198.16.106.62:8278/sundance_twn/playlist.m3u8?tid=mfe0bf4686c6d&ct=18335&tsum=14c57b1bfb62b277d396eb3cf14f26c6
+HBOSignature,http://198.16.106.62:8278/streams/d/hbosignature_zero/playlist.m3u8
+FOXCRIME,http://198.16.106.62:8278/streams/d/foxcrime_zero/playlist.m3u8
+FOXActionMovies,http://198.16.106.62:8278/streams/d/foxaction_zero/playlist.m3u8
+FoxFamilyMovies,http://198.16.106.62:8278/streams/d/foxfamily_zero/playlist.m3u8
+纬来电影台,http://198.16.106.62:8278/streams/d/videolandmovie_zero/playlist.m3u8
+CCTV6,http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8
+CCTV5,http://39.135.138.60:18890/PLTV/88888910/224/3221225633/index.m3u8
+CCTV5+,http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
+CCTV5,http://39.135.32.24:6610/000000001000/1000000001000004794/index.m3u8?i
+CCTV5+,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8
+CCTV5,http://219.151.31.43/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/4000000/mnf.m3u8
+CCTV5,http://39.135.138.59:18890/PLTV/88888910/224/3221225633/index.m3u8
+CCTV5,http://183.207.255.190/live/program/live/cctv5hd/4000000/mnf.m3u8
+CCTV5+,http://117.169.124.46:6410/ysten-businessmobile/live/hdcctv05plus/1.m3u8
+CCTV5+,http://219.151.31.43/liveplay-kk.rtxapp.com/live/program/live/cctv5phd/4000000/mnf.m3u8
+CCTV5+,http://183.207.255.190/live/program/live/cctv5phd/4000000/mnf.m3u8
+CCTV5+,http://39.135.138.59:18890/PLTV/88888910/224/3221225649/index.m3u8
+爱尔达体育2,http://198.16.106.62:8278/streams/d/luxetv_zero/playlist.m3u8
+愛爾達體育3台,http://198.16.106.62:8278/streams/d/eltasport3_zero/playlist.m3u8
+纬来体育台,http://198.16.106.62:8278/streams/d/videolandsport_zero/playlist.m3u8
+FOXSports,http://185.180.221.194:8278/streams/d/Foxsports/playlist.m3u8
+FOXSports2,http://185.180.221.194:8278/streams/d/Foxsports2/playlist.m3u8
+FOXSports3,http://185.180.221.194:8278/streams/d/Foxsports3/playlist.m3u8
+FOXSports3,https://livecdn.fptplay.net/qnetlive/foxsports3_hls.smil/chunklist_b2500000.m3u8
+FOXSports3,https://www.livedoomovie.com/02_FoxSport3_TH_720p/chunklist.m3u8
+ASTRO SPORT 2,http://50.7.161.82:8278/streams/d/Assp2/playlist.m3u8
+ASTRO SPORT 2,http://50.7.161.82:8278/streams/d/assp2_pye/playlist.m3u8
+ASTRO SPORT 4,http://50.7.161.82:8278/streams/d/assp4_pye/playlist.m3u8
+WWE摔角,http://185.180.221.194:8278/streams/d/Wwe/playlist.m3u8
+NBA HD,https://www.livedoomovie.com/02_nbahd_720p/chunklist.m3u8
+劲爆体育,http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/jbtyhd/4000000/mnf.m3u8
+魅力足球,http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/mlyyhd/4000000/mnf.m3u8
+五星体育,http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/ssty/4000000/mnf.m3u8
+新视觉,http://112.132.209.46/liveplay-kk.rtxapp.com/live/program/live/xsjhd/4000000/mnf.m3u8
+超级体育ᴴᴰ,http://39.134.155.137/PLTV/88888888/224/3221225653/index.m3u8
+超级体育ᴴᴰ,http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221225925/index.m3u8
+超级体育,http://39.134.155.153/PLTV/88888888/224/3221225576/index.m3u8
+体育赛事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226803/index.m3u8
+精彩体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226010/index.m3u8
+HGTV50,http://50.7.161.82:8278/streams/d/HGTV/playlist.m3u8
+HGTV185,http://185.180.221.194:8278/streams/d/HGTV/playlist.m3u8
+tvN,http://50.7.161.82:8278/streams/d/TVN/playlist.m3u8
+tvN,http://185.180.221.194:8278/streams/d/TVN/playlist.m3u8
+HBOHD,http://50.7.161.82:8278/streams/d/Hbo/playlist.m3u8
+HBOHD,https://gratismkctv.net/film/hbo.m3u8
+HBOHD,http://185.180.221.194:8278/streams/d/Hbo/playlist.m3u8
+HBOHits,http://185.180.221.194:8278/streams/d/Hbohits/playlist.m3u8
+HBOSignature,http://185.180.221.194:8278/streams/d/Hbosignature/playlist.m3u8
+FOX,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8
+FOX,http://185.180.221.194:8278/streams/d/Foxhd/playlist.m3u8
+FOXLIFE,http://185.180.221.194:8278/streams/d/Foxlife/playlist.m3u8
+FOXMOVIES,http://185.180.221.194:8278/streams/d/Foxmovie/playlist.m3u8
+FOXMOVIES,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
+FoxFamilyMovies,http://185.180.221.194:8278/streams/d/Foxfamily/playlist.m3u8
+FOXActionMovies,http://185.180.221.194:8278/streams/d/Foxactionhd/playlist.m3u8
+FOXCRIME,http://185.180.221.194:8278/streams/d/Foxcrime/playlist.m3u8
+AnimaxHD,http://185.180.221.194:8278/streams/d/Animax/playlist.m3u8
+AnimaxHD,https://livecdn.fptplay.net/hda3/animaxport_2000.stream/.m3u8
+NHK,https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+BBCWorldNews,http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+TVNMovie,http://185.180.221.194:8278/streams/d/Tvnmovie/playlist.m3u8
+Sony One50,http://50.7.161.82:8278/streams/d/SetOne/playlist.m3u8
+Sony ONE185,http://185.180.221.194:8278/streams/d/One/playlist.m3u8
+KBS World50,http://50.7.161.82:8278/streams/d/KBS/playlist.m3u8
+BBCLifestyle,https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+BBCEarth,http://185.180.221.194:8278/streams/d/Bbcearth/playlist.m3u8
+国家地理野生频道,http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
+国家地理悠人频道,http://185.180.221.194:8278/streams/d/Natgeopeople/playlist.m3u8
+Discovery,http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DISCOVERY-HD-1080p/playlist.m3u8
+Discovery,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DISCOVERY-HD-1080p/playlist.m3u8
+Disney,http://185.180.221.194:8278/streams/d/Disneyxd/playlist.m3u8
+动物星球,http://50.7.161.82:8278/streams/d/AnimalPlanet/playlist.m3u8
+动物星球,http://185.180.221.194:8278/streams/d/AnimalPlanet/playlist.m3u8
+Outdoor,https://livecdn.fptplay.net/world/outdoorfhd_hls.smil/chunklist_b2500000.m3u8
+FashionTV,https://fashiontv-fashiontv-4-de.samsung.wurl.com/manifest/playlist.m3u8
+FashionTV,http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
+FashionTV,http://lb.streaming.sk/fashiontv/stream/chunklist_w1402273512.m3u8
+CNN,https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+SkyNews,https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8
+TV1,http://185.180.221.194:8278/streams/d/TV1/playlist.m3u8
+TV2,http://185.180.221.194:8278/streams/d/TV2/playlist.m3u8
+TV3,http://185.180.221.194:8278/streams/d/TV3/playlist.m3u8
+NTV7,http://185.180.221.194:8278/streams/d/NTV7/playlist.m3u8
+8TV,http://185.180.221.194:8278/streams/d/TV8/playlist.m3u8
+TV9,http://185.180.221.194:8278/streams/d/TV9/playlist.m3u8
+Astro Arena,http://185.180.221.194:8278/streams/d/Arena/playlist.m3u8
+Astro Awani,http://185.180.221.194:8278/streams/d/Awani/playlist.m3u8
+Astro AEC,http://185.180.221.194:8278/streams/d/Aec/playlist.m3u8
+Astro Warna,http://185.180.221.194:8278/streams/d/Warna/playlist.m3u8
+Astro Ria,http://185.180.221.194:8278/streams/d/Ria/playlist.m3u8
+Astro Prima,http://185.180.221.194:8278/streams/d/Prima/playlist.m3u8
+Astro Oasis,http://185.180.221.194:8278/streams/d/Oasis/playlist.m3u8
+Astro Citra,http://185.180.221.194:8278/streams/d/Citra/playlist.m3u8
+BOO,http://185.180.221.194:8278/streams/d/Boo/playlist.m3u8
+Hello,http://185.180.221.194:8278/streams/d/Hello/playlist.m3u8
+Naura,http://185.180.221.194:8278/streams/d/Naura/playlist.m3u8
+TVB Xing He,http://185.180.221.194:8278/streams/d/Xinhe/playlist.m3u8
+Astro Quan Jia,http://185.180.221.194:8278/streams/d/Quanjia/playlist.m3u8
+Astro AOD,http://185.180.221.194:8278/streams/d/AodHD/playlist.m3u8
+Astro Xiao Tai Yang,http://185.180.221.194:8278/streams/d/Xiaotaiyang/playlist.m3u8
+Astro Hua Hee Dai,http://185.180.221.194:8278/streams/d/Huahee/playlist.m3u8
+Astro Shuang Xing,http://185.180.221.194:8278/streams/d/Shuangxing/playlist.m3u8
+iQIYI,http://185.180.221.194:8278/streams/d/Qiyi/playlist.m3u8
+Thrill,http://185.180.221.194:8278/streams/d/Thrill/playlist.m3u8
+AXN HD,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
+AXN,http://185.180.221.194:8278/streams/d/Axn/playlist.m3u8
+TLC,http://185.180.221.194:8278/streams/d/Tlc/playlist.m3u8
+AFN,http://185.180.221.194:8278/streams/d/Afc/playlist.m3u8
+HITS,http://185.180.221.194:8278/streams/d/Hits/playlist.m3u8
+HITS MOVIES,http://185.180.221.194:8278/streams/d/Hitsmovie/playlist.m3u8
+Celestial Movie,http://185.180.221.194:8278/streams/d/Celestial/playlist.m3u8
+CCM,http://185.180.221.194:8278/streams/d/Celestial2/playlist.m3u8
+ONE,http://185.180.221.194:8278/streams/d/One/playlist.m3u8
+Channel V,https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/chunklist_b2500000.m3u8
+Channel V,https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8
+MTV,http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-p.m3u8
+MTVWMA,http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
+MTVSpankinNew,http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
+MTVBlockParty,http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
