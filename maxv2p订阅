@@ -1,0 +1,1199 @@
+{
+  "name": "我的订阅",
+  "author": "留个名字",
+  "note": "max导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
+  "date": "2021-12-07 09:08:49",
+  "type": "task",
+  "list": [
+    {
+      "name": "执行 Shell 指令",
+      "type": "cron",
+      "time": "30 10 0 * * *",
+      "running": false,
+      "job": {
+        "type": "exec",
+        "target": "node -v"
+      }
+    },
+    {
+      "name": "Python安装(Docker下)",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/python-install.js"
+      }
+    },
+    {
+      "name": "软更新升级",
+      "type": "cron",
+      "time": "30 58 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
+      }
+    },
+    {
+      "name": "清空日志",
+      "type": "cron",
+      "time": "30 58 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
+      }
+    },
+    {
+      "name": "test",
+      "type": "schedule",
+      "time": "3",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "test.js"
+      }
+    },
+    {
+      "name": "重启 elecV2P",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "exec",
+        "target": "pm2 restart elecV2P"
+      }
+    },
+    {
+      "name": "任务添加并执行",
+      "type": "schedule",
+      "time": "10",
+      "running": false,
+      "job": {
+        "type": "exec",
+        "target": "node -v"
+      }
+    },
+    {
+      "name": "Shell 指令远程任务",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "exec",
+        "target": "python3 https://raw.githubusercontent.com/elecV2/elecV2P/master/script/Shell/elecV2P-exam.py"
+      }
+    },
+    {
+      "name": "🌟JDTASK安装",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.install.js -local"
+      }
+    },
+    {
+      "name": "🌟手动更新任务列表",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.AUTOTASK.js -local"
+      }
+    },
+    {
+      "name": "🌟手动更新Cookie",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.cookie.js -local"
+      }
+    },
+    {
+      "name": "🌟JDCookie扫码服务",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/TestJSFile/JDTaskV2P.getJDcookie.js -local"
+      }
+    },
+    {
+      "name": "👩Top.2→👸Top.1",
+      "type": "cron",
+      "time": "30 */15 * * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.jdcarcookie.js -local"
+      }
+    },
+    {
+      "name": "JDTASK更新",
+      "type": "cron",
+      "time": "10 */8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.AUTOTASK.js -local"
+      }
+    },
+    {
+      "name": "JDModule更新",
+      "type": "cron",
+      "time": "30 30 0-23/8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.module.js -local"
+      }
+    },
+    {
+      "name": "JDCookie转换",
+      "type": "cron",
+      "time": "50 23 * * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.cookie.js -local"
+      }
+    },
+    {
+      "name": "JD账号互助码转换",
+      "type": "cron",
+      "time": "0 30 0-23/6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/JDTASK_V2P/main/JDTaskV2P.sharecode.js -local"
+      }
+    },
+    {
+      "name": "金榜",
+      "type": "cron",
+      "time": "33 0,22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_gold_creator.js -local"
+      }
+    },
+    {
+      "name": "饭粒",
+      "type": "cron",
+      "time": "40 9,13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_fanli_Mod.js -local"
+      }
+    },
+    {
+      "name": "飞利浦",
+      "type": "cron",
+      "time": "40 11,14 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_FLP.js -local"
+      }
+    },
+    {
+      "name": "QQ星",
+      "type": "cron",
+      "time": "40 11,14 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_zero_wind_qqxing.js -local"
+      }
+    },
+    {
+      "name": "蒙牛",
+      "type": "cron",
+      "time": "40 11,14 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_zero_mengniu.js -local"
+      }
+    },
+    {
+      "name": "逛好物 赚京豆 ",
+      "type": "cron",
+      "time": "39 18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_tsuk_wind_GuangHaoWu_enc.js -local"
+      }
+    },
+    {
+      "name": "特物",
+      "type": "cron",
+      "time": "33 14,20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_star_wind_productZ4Brand.js -local"
+      }
+    },
+    {
+      "name": "热血心跳,狂解压",
+      "type": "cron",
+      "time": "10 2,9,17 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_star_wind_vivo.js -local"
+      }
+    },
+    {
+      "name": "选品官",
+      "type": "cron",
+      "time": "23 9,10 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_faker_wind_selectionOfficer.js -local"
+      }
+    },
+    {
+      "name": "魔方兑换",
+      "type": "cron",
+      "time": "0 0,7 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_faker_wind_mofang_exchange.js -local"
+      }
+    },
+    {
+      "name": "牛牛福利",
+      "type": "cron",
+      "time": "40 8,17 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_faker_wind_nnfls.js -local"
+      }
+    },
+    {
+      "name": "预售福利机",
+      "type": "cron",
+      "time": "46 0,9 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_ys.js -local"
+      }
+    },
+    {
+      "name": "京东小魔方",
+      "type": "cron",
+      "time": "31 2,8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_mf.js -local"
+      }
+    },
+    {
+      "name": "东东世界",
+      "type": "cron",
+      "time": "20 20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_ddworld.js -local"
+      }
+    },
+    {
+      "name": "许愿池",
+      "type": "cron",
+      "time": "40 0,2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wish.js -local"
+      }
+    },
+    {
+      "name": "跳跳乐",
+      "type": "cron",
+      "time": "1 0,11,21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_jump.js -local"
+      }
+    },
+    {
+      "name": "内容鉴赏官",
+      "type": "cron",
+      "time": "30 10,15 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_connoisseur.js -local"
+      }
+    },
+    {
+      "name": "京东极速版红包(活动时间：2021-5-5至2021-5-31)",
+      "type": "cron",
+      "time": "45 0,23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_speed_redpocke.js -local"
+      }
+    },
+    {
+      "name": "汪汪乐园养joy",
+      "type": "cron",
+      "time": "11 1-23/4 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_joypark_joy.js -local"
+      }
+    },
+    {
+      "name": "汪汪乐园每日任务",
+      "type": "cron",
+      "time": "11 13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_joypark_task.js -local"
+      }
+    },
+    {
+      "name": "汪汪乐园",
+      "type": "cron",
+      "time": "11 12 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_joy_park.js -local"
+      }
+    },
+    {
+      "name": "超级直播间红包雨(活动时间不定期，出现异常提示请忽略。红包雨期间会正常)",
+      "type": "cron",
+      "time": "1,31 0-23/1 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_live_redrain.js -local"
+      }
+    },
+    {
+      "name": "粉丝互动",
+      "type": "cron",
+      "time": "34 6,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_star_wind_fan.js -local"
+      }
+    },
+    {
+      "name": "店铺签到",
+      "type": "cron",
+      "time": "12 13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_shop_sign.js -local"
+      }
+    },
+    {
+      "name": "早起福利",
+      "type": "cron",
+      "time": "30 6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_goodMorning.js -local"
+      }
+    },
+    {
+      "name": "翻翻乐",
+      "type": "cron",
+      "time": "20 * * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_big_winner.js -local"
+      }
+    },
+    {
+      "name": "MM领京豆",
+      "type": "cron",
+      "time": "20 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_smiek_gua_MMdou.js -local"
+      }
+    },
+    {
+      "name": "京喜购物返红包",
+      "type": "cron",
+      "time": "44 */6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_air_wind_aid_cashback.js -local"
+      }
+    },
+    {
+      "name": "京喜领88元红包",
+      "type": "cron",
+      "time": "4 2,10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_jxlhb.js -local"
+      }
+    },
+    {
+      "name": "女装盲盒",
+      "type": "cron",
+      "time": "4 2,10 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_nzmh.js -local"
+      }
+    },
+    {
+      "name": "整点红包雨",
+      "type": "cron",
+      "time": "0 0-23/1 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind2_long_super_redrain.js -local"
+      }
+    },
+    {
+      "name": "半点红包雨",
+      "type": "cron",
+      "time": "30 0-23/1 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind2_long_half_redrain.js -local"
+      }
+    },
+    {
+      "name": "5G超级盲盒(活动时间：2021-06-2到2021-07-31)",
+      "type": "cron",
+      "time": "0 0-23/4 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_mohe.js -local"
+      }
+    },
+    {
+      "name": "美妆签到",
+      "type": "cron",
+      "time": "33 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_sign_graphics1.js -local"
+      }
+    },
+    {
+      "name": "运费券提醒",
+      "type": "cron",
+      "time": "33 19 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_yfcoupon.js -local"
+      }
+    },
+    {
+      "name": "领卷中心签到",
+      "type": "cron",
+      "time": "15 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_ccSign.js -local"
+      }
+    },
+    {
+      "name": "京东保价",
+      "type": "cron",
+      "time": "48 */8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_air_wind_work_price.js -local"
+      }
+    },
+    {
+      "name": "清空购物车",
+      "type": "cron",
+      "time": "22 19 */3 * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_cleancart.js -local"
+      }
+    },
+    {
+      "name": "玩一玩成就",
+      "type": "cron",
+      "time": "48 11 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_tsuk_wind_wyw.js -local"
+      }
+    },
+    {
+      "name": "京东试用",
+      "type": "cron",
+      "time": "15 12 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_try.js -local"
+      }
+    },
+    {
+      "name": "签到",
+      "type": "cron",
+      "time": "7 0,17 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/&& node jd_bean_sign.js -local"
+      }
+    },
+    {
+      "name": "京喜签到",
+      "type": "cron",
+      "time": "11 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jx_sign.js -local"
+      }
+    },
+    {
+      "name": "东东超市兑换奖品",
+      "type": "cron",
+      "time": "59 23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_blueCoin.js -local"
+      }
+    },
+    {
+      "name": "摇京豆",
+      "type": "cron",
+      "time": "6 0,23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_club_lottery.js -local"
+      }
+    },
+    {
+      "name": "东东农场",
+      "type": "cron",
+      "time": "15 6-18/6 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_fruit.js -local"
+      }
+    },
+    {
+      "name": "东东乐园",
+      "type": "cron",
+      "time": "30 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wen_wind_ddnc_farmpark.js -local"
+      }
+    },
+    {
+      "name": "宠汪汪",
+      "type": "cron",
+      "time": "59 7,15,23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_wind_joy_reward_Mod.js -local"
+      }
+    },
+    {
+      "name": "宠汪汪赛跑",
+      "type": "cron",
+      "time": "45 9,14,19 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_joy_run.js -local"
+      }
+    },
+    {
+      "name": "宠汪汪任务喂食",
+      "type": "cron",
+      "time": "35 */4 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_joy.js -local"
+      }
+    },
+    {
+      "name": "宠汪汪偷狗粮",
+      "type": "cron",
+      "time": "10 5,9,13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_joy_steal.js -local"
+      }
+    },
+    {
+      "name": "摇钱树",
+      "type": "cron",
+      "time": "23 */2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_moneyTree.js -local"
+      }
+    },
+    {
+      "name": "东东萌宠",
+      "type": "cron",
+      "time": "35 6-18/6 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_pet.js -local"
+      }
+    },
+    {
+      "name": "京东种豆得豆",
+      "type": "cron",
+      "time": "10 7-22/1 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_plantBean.js -local"
+      }
+    },
+    {
+      "name": "进店领豆",
+      "type": "cron",
+      "time": "6 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_shop.js -local"
+      }
+    },
+    {
+      "name": "东东超市",
+      "type": "cron",
+      "time": "31 0,1-23/2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_superMarket.js -local"
+      }
+    },
+    {
+      "name": "取关京东店铺商品",
+      "type": "cron",
+      "time": "45 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_unsubscribe.js -local"
+      }
+    },
+    {
+      "name": "京豆变动通知",
+      "type": "cron",
+      "time": "20 10,21 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_bean_change.js -local"
+      }
+    },
+    {
+      "name": "天天加速",
+      "type": "cron",
+      "time": "5 18,23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_speed.js -local"
+      }
+    },
+    {
+      "name": "京东抽奖机",
+      "type": "cron",
+      "time": "0 0,12,23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_lotteryMachine.js -local"
+      }
+    },
+    {
+      "name": "京东排行榜",
+      "type": "cron",
+      "time": "21 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_rankingList.js -local"
+      }
+    },
+    {
+      "name": "天天提鹅",
+      "type": "cron",
+      "time": "28 * * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_daily_egg.js -local"
+      }
+    },
+    {
+      "name": "金融养猪",
+      "type": "cron",
+      "time": "32 0-23/6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_pigPet.js -local"
+      }
+    },
+    {
+      "name": "京喜工厂",
+      "type": "cron",
+      "time": "50 * * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_dreamFactory.js -local"
+      }
+    },
+    {
+      "name": "东东小窝",
+      "type": "cron",
+      "time": "46 6,23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_small_home.js -local"
+      }
+    },
+    {
+      "name": "东东工厂",
+      "type": "cron",
+      "time": "26 * * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_jdfactory.js -local"
+      }
+    },
+    {
+      "name": "赚京豆(微信小程序)",
+      "type": "cron",
+      "time": "12 0,9 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_syj_Mod.js -local"
+      }
+    },
+    {
+      "name": "送豆得豆(京东赚赚)",
+      "type": "cron",
+      "time": "47 2,13 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_sendBeans.js -local"
+      }
+    },
+    {
+      "name": "京东快递签到",
+      "type": "cron",
+      "time": "47 1 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_kd.js -local"
+      }
+    },
+    {
+      "name": "京东汽车(签到满500赛点可兑换500京豆)",
+      "type": "cron",
+      "time": "0 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_car.js -local"
+      }
+    },
+    {
+      "name": "领京豆额外奖励(每日可获得3京豆)",
+      "type": "cron",
+      "time": "23 1,12,22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_bean_home.js -local"
+      }
+    },
+    {
+      "name": "微信小程序京东赚赚",
+      "type": "cron",
+      "time": "6 0-5/1,11 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_wind_jdzz.js -local"
+      }
+    },
+    {
+      "name": "京东汽车旅程赛点兑换金豆",
+      "type": "cron",
+      "time": "0 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_car_exchange.js -local"
+      }
+    },
+    {
+      "name": "导到所有互助码",
+      "type": "cron",
+      "time": "23 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_get_share_code.js -local"
+      }
+    },
+    {
+      "name": "口袋书店",
+      "type": "cron",
+      "time": "38 8,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_bookshop.js -local"
+      }
+    },
+    {
+      "name": "签到领现金",
+      "type": "cron",
+      "time": "10 */4 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_cash.js -local"
+      }
+    },
+    {
+      "name": "闪购盲盒",
+      "type": "cron",
+      "time": "47 8,22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_sgmh.js -local"
+      }
+    },
+    {
+      "name": "京东秒秒币",
+      "type": "cron",
+      "time": "10 6,21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_ms.js -local"
+      }
+    },
+    {
+      "name": "美丽研究院",
+      "type": "cron",
+      "time": "41 7,12,19 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_beauty.js -local"
+      }
+    },
+    {
+      "name": "京东极速版签到+赚现金任务",
+      "type": "cron",
+      "time": "21 1,6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_speed_sign.js -local"
+      }
+    },
+    {
+      "name": "京喜财富岛",
+      "type": "cron",
+      "time": "18 0-23/1 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_zero_wind_cfd.js -local"
+      }
+    },
+    {
+      "name": "京喜财富岛合成生鲜",
+      "type": "cron",
+      "time": "0 1,13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_zero_wind_cfd_fresh_exchange.js -local"
+      }
+    },
+    {
+      "name": "财富大陆互助",
+      "type": "cron",
+      "time": "18 0,1,9,14,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_smiek_gua_wealth_island_help.js -local"
+      }
+    },
+    {
+      "name": "删除优惠券(默认注释，如需要自己开启，如有误删，已删除的券可以在回收站中还原，慎用)",
+      "type": "cron",
+      "time": "20 9 * * 6",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_delCoupon.js -local"
+      }
+    },
+    {
+      "name": "京东直播（又回来了）",
+      "type": "cron",
+      "time": "30-50/5 12,23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_live.js -local"
+      }
+    },
+    {
+      "name": "京东健康社区",
+      "type": "cron",
+      "time": "13 1,6,22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_health.js -local"
+      }
+    },
+    {
+      "name": "京东健康社区收集健康能量",
+      "type": "cron",
+      "time": "5-45/20 * * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_health_collect.js -local"
+      }
+    },
+    {
+      "name": "幸运大转盘",
+      "type": "cron",
+      "time": "10 10,23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_market_lottery.js -local"
+      }
+    },
+    {
+      "name": "领金贴",
+      "type": "cron",
+      "time": "5 0 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_jin_tie.js -local"
+      }
+    },
+    {
+      "name": "京喜牧场",
+      "type": "cron",
+      "time": "15 */2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_jxmc.js -local"
+      }
+    },
+    {
+      "name": "京东到家果园",
+      "type": "cron",
+      "time": "10 0,3,8,11,17 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_winddj_fruit.js -local"
+      }
+    },
+    {
+      "name": "京东到家鲜豆任务",
+      "type": "cron",
+      "time": "0 0 */1 * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_winddj_bean.js -local"
+      }
+    },
+    {
+      "name": "京东到家收集水车水滴",
+      "type": "cron",
+      "time": "5 */2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_winddj_fruit_collectWater.js -local"
+      }
+    },
+    {
+      "name": "京东到家收集庄园水滴",
+      "type": "cron",
+      "time": "10 */2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_winddj_getPoints.js -local"
+      }
+    },
+    {
+      "name": "京东到家庄园浇水",
+      "type": "cron",
+      "time": "15 0 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_winddj_plantBeans.js -local"
+      }
+    },
+    {
+      "name": "自定义",
+      "type": "schedule",
+      "time": "0",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "RunJDTaskV2P.js -env JDTASK=https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/tem-update/master/jd_pet.js -local"
+      }
+    },
+    {
+      "name": "（内部）东东农场",
+      "type": "schedule",
+      "time": "5 6-18/6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_fruit.js -local"
+      }
+    },
+    {
+      "name": "（内部）闪购盲盒",
+      "type": "cron",
+      "time": "20 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_sgmh.js -local"
+      }
+    },
+    {
+      "name": "（内部）签到领现金",
+      "type": "cron",
+      "time": "2 0-23/4 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_cash.js -local"
+      }
+    },
+    {
+      "name": "（内部）东东工厂",
+      "type": "cron",
+      "time": "10 0,6-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_jdfactory.js -local"
+      }
+    },
+    {
+      "name": "（内部）京喜工厂",
+      "type": "cron",
+      "time": "10 * * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_dreamFactory.js -local"
+      }
+    },
+    {
+      "name": "（内部）京东种豆得豆",
+      "type": "cron",
+      "time": "1 7-21/2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_plantBean.js -local"
+      }
+    },
+    {
+      "name": "（内部）东东萌宠",
+      "type": "cron",
+      "time": "15 6-18/6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_pet.js -local"
+      }
+    }
+  ]
+}
