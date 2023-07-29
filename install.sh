@@ -14,9 +14,9 @@ d=""
 if [ ${#v} == 13 ]; then
     d="https://gitlab.com/cdle/${a}/-/raw/main/sillyGirl_linux_${a}_${v}"
 else
-    v=`curl http://git.dc-wind.ml/https://raw.githubusercontent.com/cdle/binary/main/compile_time.go --silent | tr -cd "[0-9]"`
+    v=`curl http://g.tgdl.fun/https://raw.githubusercontent.com/cdle/binary/main/compile_time.go --silent | tr -cd "[0-9]"`
     if [ ${#v} == 13 ]; then
-        d="http://git.dc-wind.ml/https://raw.githubusercontent.com/cdle/binary/main/sillyGirl_linux_${a}_${v}"
+        d="http://g.tgdl.fun/https://raw.githubusercontent.com/cdle/binary/main/sillyGirl_linux_${a}_${v}"
     else
         echo "Sorry，你网不好！"
         exit
